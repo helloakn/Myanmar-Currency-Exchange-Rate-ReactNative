@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MyanmarCurrencyExchangeRateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyanmarCurrencyExchangeRateTests.m */; };
 		07C08140A58FBA5C060F194A /* libPods-MyanmarCurrencyExchangeRate-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A56665644BEC10D1E997120 /* libPods-MyanmarCurrencyExchangeRate-tvOSTests.a */; };
@@ -20,6 +19,12 @@
 		4ACEDA8E92D96EEF5F7CE4EB /* libPods-MyanmarCurrencyExchangeRate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9356AFD150A430CC7C036951 /* libPods-MyanmarCurrencyExchangeRate.a */; };
 		721DBE8B83AB19C572CFA958 /* libPods-MyanmarCurrencyExchangeRateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB56FABC0100BDBD5E354CC4 /* libPods-MyanmarCurrencyExchangeRateTests.a */; };
 		C7F10717E485AB23F87734E5 /* libPods-MyanmarCurrencyExchangeRate-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC40A2D54C12FA6E6F8DFAB /* libPods-MyanmarCurrencyExchangeRate-tvOS.a */; };
+		91888962E9764E309B8FF2FB /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DE6CCED98349769D087962 /* menu.png */; };
+		DEDC83B57A864290900AAA09 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A162B2C8624D4C9BC1B195 /* facebook.png */; };
+		DD4F9A00BBFD4D658D95F22C /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 1061913F37D148B8B45C5A6E /* share.png */; };
+		C07EA454E01C4855A621F3D4 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3632E80D445C4A099F75E611 /* star.png */; };
+		81FEA159A2F945A498046E3D /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6465A0B0B646FD8334707B /* dollar.png */; };
+		A8F2053A01C3480581C93144 /* website.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C90E7ED292C4E78AAE14466 /* website.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,12 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EDDE4DACC4EFE0C3772393E4 /* Pods-MyanmarCurrencyExchangeRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyanmarCurrencyExchangeRate.release.xcconfig"; path = "Target Support Files/Pods-MyanmarCurrencyExchangeRate/Pods-MyanmarCurrencyExchangeRate.release.xcconfig"; sourceTree = "<group>"; };
+		28DE6CCED98349769D087962 /* menu.png */ = {isa = PBXFileReference; name = "menu.png"; path = "../assets/images/menu.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2A162B2C8624D4C9BC1B195 /* facebook.png */ = {isa = PBXFileReference; name = "facebook.png"; path = "../assets/images/facebook.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1061913F37D148B8B45C5A6E /* share.png */ = {isa = PBXFileReference; name = "share.png"; path = "../assets/images/share.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3632E80D445C4A099F75E611 /* star.png */ = {isa = PBXFileReference; name = "star.png"; path = "../assets/images/star.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C6465A0B0B646FD8334707B /* dollar.png */ = {isa = PBXFileReference; name = "dollar.png"; path = "../assets/images/dollar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C90E7ED292C4E78AAE14466 /* website.png */ = {isa = PBXFileReference; name = "website.png"; path = "../assets/images/website.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +192,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				5AF33F3C622CE1004CB5ED2D /* Pods */,
+				1A8D321A77A8430BACB33641 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +209,20 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		1A8D321A77A8430BACB33641 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				28DE6CCED98349769D087962 /* menu.png */,
+				C2A162B2C8624D4C9BC1B195 /* facebook.png */,
+				1061913F37D148B8B45C5A6E /* share.png */,
+				3632E80D445C4A099F75E611 /* star.png */,
+				3C6465A0B0B646FD8334707B /* dollar.png */,
+				7C90E7ED292C4E78AAE14466 /* website.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +311,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +364,12 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				91888962E9764E309B8FF2FB /* menu.png in Resources */,
+				DEDC83B57A864290900AAA09 /* facebook.png in Resources */,
+				DD4F9A00BBFD4D658D95F22C /* share.png in Resources */,
+				C07EA454E01C4855A621F3D4 /* star.png in Resources */,
+				81FEA159A2F945A498046E3D /* dollar.png in Resources */,
+				A8F2053A01C3480581C93144 /* website.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
