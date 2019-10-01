@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "724934840195",
+    "firebase_url": "https://myanmar-currency-exchange-rate.firebaseio.com",
+    "project_id": "myanmar-currency-exchange-rate",
+    "storage_bucket": "myanmar-currency-exchange-rate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724934840195:android:701a822557339ef824b0b6",
+        "android_client_info": {
+          "package_name": "com.myanmarcurrencyexchangerate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724934840195-8uso3nsomfrsi1r5oaolh389c7ip332s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myanmarcurrencyexchangerate",
+            "certificate_hash": "ce166acc0cc3b45bb8a6233f5cd221038b4ee00c"
+          }
+        },
+        {
+          "client_id": "724934840195-d7gerave4uva3anbak6o2t86dnm78juq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYIiI2LmbNn2sbM4xiZsAjHjmM5JrLr_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724934840195-d7gerave4uva3anbak6o2t86dnm78juq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

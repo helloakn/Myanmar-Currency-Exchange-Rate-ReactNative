@@ -44,7 +44,7 @@ const Container = styled.View`
 const Header = styled.View`
   display:flex;
   flexDirection: row;
-  height: 30px;
+  height: 50px;
   width: ${Dimensions.get('window').width}px;
   backgroundColor:#012DCB;
 `
@@ -63,7 +63,7 @@ const Header = styled.View`
 const Body = styled.View`
     display:flex;
   flexDirection: row;
-  height: ${Dimensions.get('window').height-30}px;
+  height: ${Dimensions.get('window').height-50}px;
   width: ${Dimensions.get('window').width}px;
   backgroundColor:blue;
 `
@@ -75,19 +75,19 @@ const Body = styled.View`
     flexDirection:row;
     `
         const LeftPanelInner1 = styled.View`
-        height: ${Dimensions.get('window').height-30}px;
+        height: ${Dimensions.get('window').height-50}px;
         width: ${Dimensions.get('window').width-100}px;
         backgroundColor:#0152CB;
         `
         const LeftPanelInner2 = styled.View`
-        height: ${Dimensions.get('window').height-30}px;
+        height: ${Dimensions.get('window').height-50}px;
         width: 100px;
         backgroundColor:rgba(1, 82, 203, 0.5);
     `
 
     const RightPanel = styled.View`
-    height: ${Dimensions.get('window').height-30}px;
-    width: ${Dimensions.get('window').width}px;
+    height: 100%;
+    width: 100%;
     backgroundColor:red;
     `
 

@@ -5,7 +5,6 @@ import styled from 'styled-components/native';
 //import DatePicker from 'react-native-date-picker';
 
 const Container = styled.View`
-  display:flex;
   flexDirection: column;
   height: 100%;
   width:100%;
@@ -20,9 +19,9 @@ const styles = StyleSheet.create({
   },
   item: {
     backgroundColor: '#5A8DDA',
-    padding: 20,
-    marginVertical: 8,
-    marginHorizontal: 16,
+    padding: 5,
+    borderBottomColor:'white',
+    borderBottomWidth:1,
   },
   banktype:{
     fontSize: 14,
@@ -30,10 +29,13 @@ const styles = StyleSheet.create({
   },
   link:{
     fontSize: 16,
-    color:'white',
+    color:'blue',
   },
   title: {
     fontSize: 16,
+  },
+  nickname: {
+    fontSize: 14,
   },
 });
 
@@ -41,12 +43,14 @@ const DATA = [
   {
     id: 'bd7ascbea-c1b1-s46c2-aed5-3ad53abb28ba',
     title: 'Central Bank of Myanmar',
+    nickname:null,
     link: 'https://www.cbm.gov.mm/',
     banktype: 'Central bank'
   },
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'Asia Green Development Bank (AGD Bank)',
+    title: 'Asia Green Development Bank ',
+    nickname:"(AGD Bank)",
     link: 'https://www.agdbank.com/',
     banktype: 'Private Bank'
   },
@@ -58,67 +62,78 @@ const DATA = [
   },
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
-    title: 'Co-operative Bank (CB Bank)',
+    title: 'Co-operative Bank ',
+    nickname:"(CB Bank)",
     link: 'https://www.cbbank.com.mm/en',
     banktype: 'Private Bank'
   },
   {
     id: 'sbd7acbea-c1b1-46c2-aed5-3asd53abb28ba',
     title: 'First Private Bank',
+    nickname:null,
     link: 'https://www.firstprivatebank.com.mm/en/',
     banktype: 'Private Bank'
   },
   {
     id: 'd3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-    title: 'Kanbawza Bank (KBZ Bank)',
+    title: 'Kanbawza Bank ',
+    nickname:'(KBZ Bank)',
     link: 'https://www.kbzbank.com/en/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3da1-471f-bd96-145571e29d72',
-    title: 'Myanma Apex Bank (MAB Bank)',
+    title: 'Myanma Apex Bank',
+    nickname:'(MAB Bank)',
     link: 'https://www.mabbank.com/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3da1-4371f-bd96-145571e29d72',
     title: 'Myanmar Microfinance Bank',
+    nickname:null,
     link: 'http://www.mmbbank.com.mm/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3da1-47u1f-bd96-145571e29d72',
-    title: 'Myanmar Oriental Bank (MOB Bank) ',
+    title: 'Myanmar Oriental Bank',
+    nickname:'(MOB Bank)',
     link: 'https://www.mobmyanmar.com/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3da1-e-bd96-145571e29d72',
     title: 'Myanma Tourism Bank',
+    nickname:null,
     link: 'http://www.mmtourismbank.com/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3da1q-471f-bd96-145571e29d72',
-    title: 'Shwe Rural and Urban Development Bank (Shwe Bank)',
+    title: 'Shwe Rural and Urban Development Bank',
+    nickname:'(Shwe Bank)',
     link: 'https://shwebank.com/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3seda1-471f-bd96-145571e29d72',
-    title: 'Tun Commercial Bank (formerly Tun Foundation Bank)',
+    title: 'Tun Commercial Bank',
+    nickname:'(formerly Tun Foundation Bank)',
     link: 'http://www.tuncommercialbank.com/eng/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3cda1-471f-bd96-145571e29d72',
     title: 'United Amara Bank',
+    nickname:null,
     link: 'https://www.uab.com.mm/',
     banktype: 'Private Bank'
   },
   {
     id: 'e58694a0f-3dda1-471f-bd96-145571e29d72',
     title: 'Yoma Bank',
+    nickname:null,
     link: 'https://www.yomabank.com/',
     banktype: 'Private Bank'
   },
@@ -140,6 +155,7 @@ function Item({ value }) {
   return (
     <TouchableOpacity style={styles.item} onPress={()=>{this._onPressButtonOpenLink(value.link)}}>
       <Text style={styles.title}>{value.title}</Text>
+      {(value.nickname!=null?<Text style={styles.nickname}>{value.nickname}</Text>:null)}
       <Text style={styles.link}>{value.link}</Text>
       <Text style={styles.banktype}>Type : {value.banktype}</Text>
     </TouchableOpacity>

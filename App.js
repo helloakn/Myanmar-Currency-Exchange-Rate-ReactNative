@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import {Dimensions,Text, StyleSheet,  View} from 'react-native';
+import {Dimensions,Text, StyleSheet,  View,StatusBar} from 'react-native';
 import styled from 'styled-components/native';
 import Layout from './Layout/Layout'
 const Container = styled.View`
@@ -22,6 +22,7 @@ const Container = styled.View`
 const App: () => React$Node = () => {
   return (
    <Container>
+    <StatusBar hidden />
       <Layout  />
    </Container>
   );
