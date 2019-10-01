@@ -185,6 +185,11 @@ dependencies {
     //for google
     implementation 'com.google.firebase:firebase-analytics:17.2.0'
 
+    //for firebase react
+    implementation project(path: ":@react-native-firebase_app")
+    implementation project(path: ":@react-native-firebase_analytics")
+    implementation project(path: ":@react-native-firebase_admob")
+
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 

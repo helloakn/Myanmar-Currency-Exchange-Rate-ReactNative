@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-firebase/admob": "^6.0.0",
+    "@react-native-firebase/analytics": "^6.0.0",
+    "@react-native-firebase/app": "^6.0.0",
     "react": "16.9.0",
     "react-native": "0.61.1",
     "react-native-flags": "^1.0.0",

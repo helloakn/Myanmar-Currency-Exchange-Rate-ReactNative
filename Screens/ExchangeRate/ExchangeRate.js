@@ -48,23 +48,23 @@ const styles = StyleSheet.create({
 const Container = styled.View`
   display:flex;
   flexDirection: column;
-  height: ${Dimensions.get('window').height}px;
-  width: ${Dimensions.get('window').width}px;
+  height:100%;
+  width:100%;
 
 `
 const Header = styled.View`
   display:flex;
   flexDirection: row;
   height: 30px;
-  width: ${Dimensions.get('window').width}px;
+  width:100%;
   backgroundColor:#5375A8;
 `
   
 const Body = styled.View`
     display:flex;
   flexDirection: column;
-  height: ${Dimensions.get('window').height}px;
-  width: ${Dimensions.get('window').width}px;
+  height: 100%;
+  width:100%;
   backgroundColor:white;
 `
   

@@ -2,8 +2,13 @@ import React from 'react';
 import {Image,Dimensions,Text, TouchableOpacity,  StyleSheet,View,Share,Linking} from 'react-native';
 import styled from 'styled-components/native';
 
+import { BannerAd, BannerAdSize, TestIds } from '@react-native-firebase/admob';
+
+
 import ExchangeRate from '../Screens/ExchangeRate/ExchangeRate';
 import BankWebsiteList from '../Screens/BankWebsiteList/BankWebsiteList';
+
+
 
 
 const styles = StyleSheet.create({
@@ -63,24 +68,24 @@ const Header = styled.View`
 const Body = styled.View`
     display:flex;
   flexDirection: row;
-  height: ${Dimensions.get('window').height-50}px;
+  height: ${Dimensions.get('window').height-100}px;
   width: ${Dimensions.get('window').width}px;
   backgroundColor:blue;
 `
     const LeftPanel = styled.View`
-    height: ${Dimensions.get('window').height-30}px;
-    width: ${Dimensions.get('window').width}px;
+    height: 100%;
+    width: 100%;
     zIndex:100000;
     position:absolute;
     flexDirection:row;
     `
         const LeftPanelInner1 = styled.View`
-        height: ${Dimensions.get('window').height-50}px;
+        height:100%;
         width: ${Dimensions.get('window').width-100}px;
         backgroundColor:#0152CB;
         `
         const LeftPanelInner2 = styled.View`
-        height: ${Dimensions.get('window').height-50}px;
+        height: 100%;
         width: 100px;
         backgroundColor:rgba(1, 82, 203, 0.5);
     `
@@ -90,7 +95,12 @@ const Body = styled.View`
     width: 100%;
     backgroundColor:red;
     `
-
+const Footer = styled.View`
+    display:flex;
+  height: 50px;
+  width:100%;
+  backgroundColor:blue;
+`
 
 export default class Layout extends React.Component {
 
@@ -190,7 +200,7 @@ export default class Layout extends React.Component {
                         </TouchableOpacity>
                     </HLeft>
                     <HRight>
-                        <Text style={{color:'white'}}>Myanmar Exchange Rates</Text>
+                        <Text style={{color:'white'}}>Myanmar Currency Exchange Rate</Text>
                     </HRight>
                 </Header>
                 <Body>
@@ -199,6 +209,16 @@ export default class Layout extends React.Component {
                         {Screen}
                     </RightPanel>
                 </Body>
+                <Footer>
+                    <BannerAd
+                        unitId="ca-app-pub-2510322043242565/3086692563"
+                        size={BannerAdSize.FULL_BANNER}
+                        requestOptions={{
+                            requestNonPersonalizedAdsOnly: true,
+                        }}
+                        
+                    />
+                </Footer>
             </Container>
          
 		);
