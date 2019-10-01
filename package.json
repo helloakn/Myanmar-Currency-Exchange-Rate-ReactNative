@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.9.0",
     "react-native": "0.61.1",
-    "react-native-date-picker": "^2.7.0",
+    "react-native-flags": "^1.0.0",
     "styled-components": "^4.4.0"
   },
   "devDependencies": {

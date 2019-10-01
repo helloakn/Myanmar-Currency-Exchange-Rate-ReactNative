@@ -2,7 +2,7 @@ import React from 'react';
 import {Image,Dimensions,Text, TouchableOpacity,  View,FlatList,StyleSheet,Linking} from 'react-native';
 import styled from 'styled-components/native';
 
-import DatePicker from 'react-native-date-picker';
+//import DatePicker from 'react-native-date-picker';
 
 const Container = styled.View`
   display:flex;

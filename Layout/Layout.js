@@ -2,7 +2,7 @@ import React from 'react';
 import {Image,Dimensions,Text, TouchableOpacity,  StyleSheet,View,Share,Linking} from 'react-native';
 import styled from 'styled-components/native';
 
-import CalculateRatting from '../Screens/CalculateRatting/CalculateRatting';
+import ExchangeRate from '../Screens/ExchangeRate/ExchangeRate';
 import BankWebsiteList from '../Screens/BankWebsiteList/BankWebsiteList';
 
 
@@ -25,9 +25,10 @@ const styles = StyleSheet.create({
         left:10
       },
       line:{
-          width:'100%',
+          width:'80%',
           height:1,
-          backgroundColor:'silver'
+          left:'10%',
+          backgroundColor:'white'
       }
   });
 
@@ -97,7 +98,7 @@ export default class Layout extends React.Component {
 		super(props);
 		this.state = { 
             showMenu: false,
-            Screen:'CalculateRatting' //bankwebsite
+            Screen:'ExchangeRate' //bankwebsite
 		}
 
 		//this.switchCamera = this.switchCamera.bind(this);
@@ -138,8 +139,8 @@ export default class Layout extends React.Component {
     _onPressButton =()=> {
         this.setState({showMenu:!this.state.showMenu});
     }
-    _onPressButtonCalculateRatting =()=>{
-        this.setState({showMenu:!this.state.showMenu,Screen:'CalculateRatting'});
+    _onPressButtonExchangeRate =()=>{
+        this.setState({showMenu:!this.state.showMenu,Screen:'ExchangeRate'});
     }
     _onPressButtonBankWebsiteList=()=> {
         this.setState({showMenu:!this.state.showMenu,Screen:'bankwebsite'});
@@ -148,7 +149,7 @@ export default class Layout extends React.Component {
 	render() {
         let MenuPanel = <LeftPanel showMenu={this.state.showMenu}>
             <LeftPanelInner1>
-                <TouchableOpacity onPress={this._onPressButtonCalculateRatting} style={styles.menuButton}> 
+                <TouchableOpacity onPress={this._onPressButtonExchangeRate} style={styles.menuButton}> 
                     <Image source={require('../assets/images/dollar.png')} style={styles.menuIcon} />
                     <Text style={styles.menuFont}> Exchange Rates</Text>
                 </TouchableOpacity>
@@ -173,14 +174,13 @@ export default class Layout extends React.Component {
                     <Text style={styles.menuFont}> Like us on Facebook</Text>
                 </TouchableOpacity>
 
-                <Text> Well Kyaw ko chit tal . hehe :P</Text>
             </LeftPanelInner1>
             <LeftPanelInner2>
                 <TouchableOpacity onPress={this._onPressButton} style={{width:'100%',height:'100%'}}>
                 </TouchableOpacity>
             </LeftPanelInner2>
         </LeftPanel>;
-        let Screen = (this.state.Screen=="CalculateRatting"? <CalculateRatting />:<BankWebsiteList />);
+        let Screen = (this.state.Screen=="ExchangeRate"? <ExchangeRate />:<BankWebsiteList />);
 		return (
             <Container>
                 <Header>

@@ -25,6 +25,14 @@
 		C07EA454E01C4855A621F3D4 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3632E80D445C4A099F75E611 /* star.png */; };
 		81FEA159A2F945A498046E3D /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6465A0B0B646FD8334707B /* dollar.png */; };
 		A8F2053A01C3480581C93144 /* website.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C90E7ED292C4E78AAE14466 /* website.png */; };
+		30B0FB2939234A99A11F9ED8 /* flag-lkr.png in Resources */ = {isa = PBXBuildFile; fileRef = C82F1E05761F426D913158E1 /* flag-lkr.png */; };
+		3076C2EB36884B418C1467FB /* flag-rsd.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0D6F04E1CD46ADBC9C5EA8 /* flag-rsd.png */; };
+		D1954BB15B174AB884E3E97C /* flag-sek.png in Resources */ = {isa = PBXBuildFile; fileRef = FFEFEE4EB8C84B61A2AA1A21 /* flag-sek.png */; };
+		6E2D4C9092FF4C0F9C19DC18 /* flag-thb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FD240B4A0E6454EA035AD6B /* flag-thb.png */; };
+		E95A27B000064235BD64D5CE /* flag-und.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AFC952606FB4321AC5C4139 /* flag-und.png */; };
+		FCE6DCE814CD4DD29B70A86F /* flag-usd.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CEE5D5E61847C5A0E75B35 /* flag-usd.png */; };
+		DE21CDF233624ECF8D8FAE3E /* flag-zar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B05011C4D19A1480503 /* flag-zar.png */; };
+		971F8892354943429BB6731E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7718711FABB0495580F534A6 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +86,14 @@
 		3632E80D445C4A099F75E611 /* star.png */ = {isa = PBXFileReference; name = "star.png"; path = "../assets/images/star.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3C6465A0B0B646FD8334707B /* dollar.png */ = {isa = PBXFileReference; name = "dollar.png"; path = "../assets/images/dollar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7C90E7ED292C4E78AAE14466 /* website.png */ = {isa = PBXFileReference; name = "website.png"; path = "../assets/images/website.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C82F1E05761F426D913158E1 /* flag-lkr.png */ = {isa = PBXFileReference; name = "flag-lkr.png"; path = "../assets/images/flag-lkr.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC0D6F04E1CD46ADBC9C5EA8 /* flag-rsd.png */ = {isa = PBXFileReference; name = "flag-rsd.png"; path = "../assets/images/flag-rsd.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFEFEE4EB8C84B61A2AA1A21 /* flag-sek.png */ = {isa = PBXFileReference; name = "flag-sek.png"; path = "../assets/images/flag-sek.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2FD240B4A0E6454EA035AD6B /* flag-thb.png */ = {isa = PBXFileReference; name = "flag-thb.png"; path = "../assets/images/flag-thb.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AFC952606FB4321AC5C4139 /* flag-und.png */ = {isa = PBXFileReference; name = "flag-und.png"; path = "../assets/images/flag-und.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D7CEE5D5E61847C5A0E75B35 /* flag-usd.png */ = {isa = PBXFileReference; name = "flag-usd.png"; path = "../assets/images/flag-usd.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A814B05011C4D19A1480503 /* flag-zar.png */ = {isa = PBXFileReference; name = "flag-zar.png"; path = "../assets/images/flag-zar.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7718711FABB0495580F534A6 /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../assets/images/logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +235,14 @@
 				3632E80D445C4A099F75E611 /* star.png */,
 				3C6465A0B0B646FD8334707B /* dollar.png */,
 				7C90E7ED292C4E78AAE14466 /* website.png */,
+				C82F1E05761F426D913158E1 /* flag-lkr.png */,
+				CC0D6F04E1CD46ADBC9C5EA8 /* flag-rsd.png */,
+				FFEFEE4EB8C84B61A2AA1A21 /* flag-sek.png */,
+				2FD240B4A0E6454EA035AD6B /* flag-thb.png */,
+				4AFC952606FB4321AC5C4139 /* flag-und.png */,
+				D7CEE5D5E61847C5A0E75B35 /* flag-usd.png */,
+				1A814B05011C4D19A1480503 /* flag-zar.png */,
+				7718711FABB0495580F534A6 /* logo.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -370,6 +394,14 @@
 				C07EA454E01C4855A621F3D4 /* star.png in Resources */,
 				81FEA159A2F945A498046E3D /* dollar.png in Resources */,
 				A8F2053A01C3480581C93144 /* website.png in Resources */,
+				30B0FB2939234A99A11F9ED8 /* flag-lkr.png in Resources */,
+				3076C2EB36884B418C1467FB /* flag-rsd.png in Resources */,
+				D1954BB15B174AB884E3E97C /* flag-sek.png in Resources */,
+				6E2D4C9092FF4C0F9C19DC18 /* flag-thb.png in Resources */,
+				E95A27B000064235BD64D5CE /* flag-und.png in Resources */,
+				FCE6DCE814CD4DD29B70A86F /* flag-usd.png in Resources */,
+				DE21CDF233624ECF8D8FAE3E /* flag-zar.png in Resources */,
+				971F8892354943429BB6731E /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
